@@ -31,3 +31,7 @@ After all startup scripts have finished...
 On `cn`:
 
 If you'd like to monitor traffic between the various network functions and the gNodeB, start tshark in a session:
+
+```
+sudo tcpdump -i demo-oai   -f "not arp and not port 53 and not host archive.ubuntu.com and not host security.ubuntu.com" -w \Users\sayazm\file.pcap
+```
