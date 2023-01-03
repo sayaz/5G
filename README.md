@@ -47,3 +47,28 @@ In yet another session, start following the logs for the AMF. This way you can s
 ```
 sudo docker logs -f oai-amf
 ```
+
+On ``nodeb`:
+```
+sudo /var/tmp/oairan/cmake_targets/ran_build/build/nr-softmodem -E   -O /var/tmp/etc/oai/gnb.sa.band78.fr1.106PRB.usrpx310.conf --sa
+```
+On `ota-nucX`:
+After you've started the gNodeB, you can bring the COTS UE online. First, start the Quectel connection manager:
+```
+sudo quectel-CM -s oai -4
+```
+In another session on the same node, bring the UE online:
+```
+# turn modem on
+sudo modemctl full-functionality
+```
+The UE should attach to the network and pick up an IP address on the wwan interface associated with the module. You'll see the wwan interface name and the IP address in the stdout of the quectel-CM process.
+
+You should now be able to generate traffic in either direction:
+```
+# from UE to CN traffic gen node (in session on ota-nucX)
+ping 192.168.70.135
+
+# from CN traffic generation service to UE (in session on cn node)
+sudo docker exec -it oai-ext-dn ping <IP address from quectel-CM>
+```
