@@ -48,7 +48,7 @@ In yet another session, start following the logs for the AMF. This way you can s
 sudo docker logs -f oai-amf
 ```
 
-On ``nodeb`:
+On `nodeb`:
 ```
 sudo /var/tmp/oairan/cmake_targets/ran_build/build/nr-softmodem -E   -O /var/tmp/etc/oai/gnb.sa.band78.fr1.106PRB.usrpx310.conf --sa
 ```
