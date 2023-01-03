@@ -12,7 +12,7 @@ Clicking the `Change Profile` button will let you select the profile that your e
 
 From Profile selector (left panel), select `oai-indoor-ota` and click `Select Profile`
 
-<img src="https://user-images.githubusercontent.com/22035469/210289748-374d7541-7449-45cb-b741-0901a836eb43.png" width="550" height="350">
+<img src="https://user-images.githubusercontent.com/22035469/210289748-374d7541-7449-45cb-b741-0901a836eb43.png" width="600" height="350">
 
 Select experiment parameters
 
