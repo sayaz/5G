@@ -2,10 +2,27 @@
 
 Login to POWDER portal: [POWDER](https://www.powderwireless.net/) 
 
+From top menu select `Experiments --> Start Experiment`
+
+<img src="https://user-images.githubusercontent.com/22035469/210289571-4959ce4f-89a7-4b06-9fb4-3725256a6f3e.png" width="500" height="150">
+
+Clicking the `Change Profile` button will let you select the profile that your experiment will be built from
+
+<img src="https://user-images.githubusercontent.com/22035469/210289631-f0477fc6-0e54-4291-89dc-66ffe6122b8b.png" width="500" height="160">
+
+From Profile selector (left panel), select `oai-indoor-ota` and click `Select Profile`
+
+<img src="https://user-images.githubusercontent.com/22035469/210289748-374d7541-7449-45cb-b741-0901a836eb43.png" width="550" height="350">
+
+Select experiment parameters
+
+<img src="https://user-images.githubusercontent.com/22035469/210290134-6d97ca4e-23fc-4ac8-b82d-69cb16e47f61.png" width="500" height="300">
+
 This profile instantiates an experiment for testing OAI 5G with COTS UEs in standalone mode using resources in the POWDER indoor over-the-air (OTA) lab. The indoor OTA lab includes:
 
 - 4x NI X310 SDRs, each with a UBX-160 daughter card occupying channel 0. The TX/RX and RX2 ports on this channel are connected to broadband antennas. The SDRs are connected via fiber to near-edge compute resources.
 - 4x Intel NUC compute nodes, each equipped with a Quectel RM500Q-GL 5G module that has been provisioned with a SIM card. The NUCs are also equipped with NI B210 SDRs, but they are not the focus of this profile.
+
 
 You can find a diagram of the lab layout here: [OTA Lab diagram](https://gitlab.flux.utah.edu/powderrenewpublic/powder-deployment/-/raw/master/diagrams/ota-lab.png)
 
@@ -21,6 +38,22 @@ Note: This profile currently requires the use of the 3550-3600 MHz spectrum rang
 - A d740 compute node for the gNodeB
 - One of the four indoor OTA X310s
 - All four indoor OTA NUCs
+
+Type the `name` and select the `project` to work in and click `Next`
+
+<img src="https://user-images.githubusercontent.com/22035469/210290278-261fced3-8aa4-4927-82bc-f01b0c10d8d0.png" width="500" height="200">
+
+If you already have a previously “approved” reservation, select the checkbox and proceed.
+
+<img src="https://user-images.githubusercontent.com/22035469/210290421-8c6d2ff1-514f-4146-8d8b-e4318ea56a04.png" width="500" height="380">
+
+Provisioning and booting will start and take some time to complete
+
+<img src="https://user-images.githubusercontent.com/22035469/210290500-91dd58a5-9c88-4dc3-93fa-499652676d90.png" width="700" height="200">
+
+Once the provisioning is complete, go to `List View` tab
+
+<img src="https://user-images.githubusercontent.com/22035469/210290582-92e0edbf-63d6-493d-9346-8e139f000a89.png" width="700" height="200">
 
 # Steps to follow
 
