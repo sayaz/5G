@@ -72,3 +72,4 @@ ping 192.168.70.135
 # from CN traffic generation service to UE (in session on cn node)
 sudo docker exec -it oai-ext-dn ping <IP address from quectel-CM>
 ```
+# Trace Analysis
