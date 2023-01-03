@@ -21,3 +21,13 @@ Note: This profile currently requires the use of the 3550-3600 MHz spectrum rang
 - A d740 compute node for the gNodeB
 - One of the four indoor OTA X310s
 - All four indoor OTA NUCs
+
+# Steps to follow
+
+Startup scripts will still be running when your experiment becomes ready. Watch the "Startup" column on the "List View" tab for your experiment and wait until all of the compute nodes show "Finished" before proceeding.
+
+After all startup scripts have finished...
+
+On `cn`:
+
+If you'd like to monitor traffic between the various network functions and the gNodeB, start tshark in a session:
