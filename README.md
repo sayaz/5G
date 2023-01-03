@@ -35,3 +35,15 @@ If you'd like to monitor traffic between the various network functions and the g
 ```
 sudo tcpdump -i demo-oai   -f "not arp and not port 53 and not host archive.ubuntu.com and not host security.ubuntu.com" -w \Users\sayazm\file.pcap
 ```
+
+In another session, start the 5G core network services. It will take several seconds for the services to start up. Make sure the script indicates that the services are healthy before moving on.
+
+```
+cd /var/tmp/oai-cn5g-fed/docker-compose
+sudo python3 ./core-network.py --type start-mini --fqdn no --scenario 1
+```
+
+In yet another session, start following the logs for the AMF. This way you can see when the UE syncs with the network.
+```
+sudo docker logs -f oai-amf
+```
