@@ -106,3 +106,7 @@ ping 192.168.70.135
 sudo docker exec -it oai-ext-dn ping <IP address from quectel-CM>
 ```
 # Trace Analysis
+To transfer file from CN node to your machine
+```
+scp sayazm@ota-nuc1.emulab.net:/users/sayazm/fileName.pcap /Users/ayaz/Desktop/5g/fileName.pcap
+```
