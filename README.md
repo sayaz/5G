@@ -10,13 +10,13 @@ Clicking the `Change Profile` button will let you select the profile that your e
 
 <img src="https://user-images.githubusercontent.com/22035469/210289631-f0477fc6-0e54-4291-89dc-66ffe6122b8b.png" width="500" height="160">
 
-Click on `Show profile` button
-
-<img src="https://user-images.githubusercontent.com/22035469/213006948-060e1fff-7a08-46b4-b3df-e3d7186147a1.png" width="500" height="160">
-
 From Profile selector (left panel), select `oai-indoor-ota` and click `Select Profile`
 
 <img src="https://user-images.githubusercontent.com/22035469/210289748-374d7541-7449-45cb-b741-0901a836eb43.png" width="600" height="350">
+
+Click on `Show profile` button
+
+<img src="https://user-images.githubusercontent.com/22035469/213006948-060e1fff-7a08-46b4-b3df-e3d7186147a1.png" width="500" height="160">
 
 Select experiment parameters
 
