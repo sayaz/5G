@@ -20,7 +20,7 @@ Click on `Show profile` button
 
 At the end of the page, `instantiate` from the `test-basic-core` repository
 
-<img src="https://user-images.githubusercontent.com/22035469/213007753-80df7ee4-21d3-4823-8c5b-150484b4085b.png" width="500" height="150">
+<img src="https://user-images.githubusercontent.com/22035469/213007753-80df7ee4-21d3-4823-8c5b-150484b4085b.png" width="500" height="100">
 
 
 Select experiment parameters
