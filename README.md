@@ -16,11 +16,11 @@ From Profile selector (left panel), select `oai-indoor-ota` and click `Select Pr
 
 Click on `Show profile` button
 
-<img src="https://user-images.githubusercontent.com/22035469/213006948-060e1fff-7a08-46b4-b3df-e3d7186147a1.png" width="500" height="350">
+<img src="https://user-images.githubusercontent.com/22035469/213006948-060e1fff-7a08-46b4-b3df-e3d7186147a1.png" width="500" height="250">
 
 At the end of the page, `instantiate` from the `test-basic-core` repository
 
-<img src="https://user-images.githubusercontent.com/22035469/213007753-80df7ee4-21d3-4823-8c5b-150484b4085b.png width="500" height="150">
+<img src="https://user-images.githubusercontent.com/22035469/213007753-80df7ee4-21d3-4823-8c5b-150484b4085b.png" width="500" height="150">
 
 
 Select experiment parameters
